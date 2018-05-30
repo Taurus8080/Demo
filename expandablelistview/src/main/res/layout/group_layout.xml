@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--分组视图-->
+    <!--因分组项左边要显示Indicator，所以加了paddingLeft属性-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/label_expend_group"
+        android:gravity="center_vertical"
+        android:background="@android:color/holo_blue_light"
+        android:paddingLeft="35dp"
+        android:textColor="#fff"
+        android:text="aaassss"
+        android:textSize="20sp"/>
+
+</LinearLayout>
