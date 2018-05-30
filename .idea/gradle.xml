@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/fragmentdemo" />
             <option value="$PROJECT_DIR$/viewpagerdemo" />
+            <option value="$PROJECT_DIR$/viewpagertest" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
