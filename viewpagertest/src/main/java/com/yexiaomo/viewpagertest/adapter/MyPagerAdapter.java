@@ -29,12 +29,13 @@ public class MyPagerAdapter extends PagerAdapter {
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
-
-        return super.instantiateItem(container, position);
+        ImageView imageView = imgList.get(position);
+        container.addView(imageView);
+        return imageView;
     }
 
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
-        super.destroyItem(container, position, object);
+        container.removeView(imgList.get(position));
     }
 }
