@@ -8,7 +8,7 @@
     <!--因分组项左边要显示Indicator，所以加了paddingLeft属性-->
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:id="@+id/label_expend_child"
         android:textColor="#666"
