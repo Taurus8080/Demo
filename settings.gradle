@@ -1,1 +1,1 @@
-include ':app', ':viewpagerdemo', ':fragmentdemo', ':viewpagertest', ':expandablelistview'
+include ':app', ':viewpagerdemo', ':fragmentdemo', ':viewpagertest', ':expandablelistview', ':expandablelv'
